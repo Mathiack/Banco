@@ -6,3 +6,5 @@ create table abastecimento (ID_Abastecimento int AUTO_INCREMENT PRIMARY KEY,
                            	kmHodometro double,
                            	precoGasolina double,
                            	media double);
+
+alter table abastecimento add column cheio boolean;
